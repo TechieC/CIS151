@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	cout << "Hello World\n";
+	return 0;
+}
+   
+    int x = -6;
+
+    cout << (x > -5 && x <= 5) << "\n";
+    cout << !(!false || false && true) << "\n";
+    cout << (true || true && false) << "\n";
